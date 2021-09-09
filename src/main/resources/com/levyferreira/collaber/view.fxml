@@ -22,7 +22,7 @@
                 <Button mnemonicParsing="false" onAction="#selectFile" text="🔍" />
 
             </HBox>
-            <Button fx:id="btRun" onAction="#processs" text="Colaborizar!" />
+            <Button fx:id="btRun" onAction="#processs" text="Preparar!!" />
         </VBox>
     </center>
     <bottom>

@@ -1,25 +1,22 @@
 <component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="collaber:jar">
+  <artifact type="jar" name="collaber:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/collaber_jar</output-path>
     <root id="archive" name="collaber.jar">
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
-      </element>
       <element id="module-output" name="collaber" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2-linux.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/11.0.2/javafx-fxml-11.0.2-linux.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2-linux.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/11.0.2/javafx-base-11.0.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/11.0.2/javafx-fxml-11.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/pdfbox/pdfbox-tools/2.0.0-RC1/pdfbox-tools-2.0.0-RC1.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/11.0.2/javafx-base-11.0.2-linux.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/11.0.2/javafx-fxml-11.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2-linux.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2-linux.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/pdfbox/pdfbox-debugger/2.0.0-RC1/pdfbox-debugger-2.0.0-RC1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/11.0.2/javafx-base-11.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/11.0.2/javafx-fxml-11.0.2-linux.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2.jar" path-in-jar="/" />
       <element id="file-copy" path="$USER_HOME$/openjfx/javafx-sdk-11.0.2/lib/javafx-swt.jar" />
       <element id="file-copy" path="$USER_HOME$/openjfx/javafx-sdk-11.0.2/lib/javafx.base.jar" />
       <element id="file-copy" path="$USER_HOME$/openjfx/javafx-sdk-11.0.2/lib/javafx.controls.jar" />
@@ -50,54 +47,6 @@
       <element id="file-copy" path="$USER_HOME$/openjfx/javafx-sdk-11.0.2/lib/libprism_es2.so" />
       <element id="file-copy" path="$USER_HOME$/openjfx/javafx-sdk-11.0.2/lib/libprism_sw.so" />
       <element id="file-copy" path="$USER_HOME$/openjfx/javafx-sdk-11.0.2/lib/src.zip" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/classlist" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/ct.sym" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/jexec" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/jrt-fs.jar" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/jspawnhelper" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/jvm.cfg" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libattach.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libawt.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libawt_headless.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libawt_xawt.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libdt_socket.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libextnet.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libfontmanager.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libfreetype.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libharfbuzz.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libinstrument.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libj2gss.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libj2pcsc.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libj2pkcs11.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libjaas.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libjava.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libjavajpeg.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libjawt.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libjdwp.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libjimage.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libjsig.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libjsound.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/liblcms.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libmanagement.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libmanagement_agent.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libmanagement_ext.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libmlib_image.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libnet.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libnio.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libprefs.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/librmi.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libsaproc.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libsctp.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libsplashscreen.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libsunec.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libunpack.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libverify.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/libzip.so" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/modules" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/psfont.properties.ja" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/psfontj2d.properties" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/src.zip" />
-      <element id="file-copy" path="$USER_HOME$/.jdks/corretto-11.0.12/lib/tzdb.dat" />
     </root>
   </artifact>
 </component>
